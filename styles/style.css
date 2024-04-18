@@ -197,8 +197,7 @@ input[type='checkbox']:hover ~ .search-form__label-text {
 .content__list {
     position: relative;
     height: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .content__list > li:last-child {
