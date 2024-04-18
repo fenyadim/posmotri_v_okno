@@ -58,6 +58,7 @@ ol {
     align-content: center;
     height: 100vh;
     gap: 30px;
+    inline-size: 1140px;
 }
 
 .result {
@@ -75,6 +76,7 @@ ol {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .search-form {
