@@ -141,9 +141,11 @@ ol {
 
 input[type="checkbox"]:checked + .search-form__pseudo-checkbox:before {
     content: '';
-    position: absolute;
-    inset: 1px;
+    display: block;
     background: white;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    margin: 1px;
 }
 
 input[type='checkbox']:hover ~ .search-form__label-text {
